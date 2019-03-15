@@ -237,10 +237,7 @@ Perfect! Just what we needed.
 
 One thing to keep in mind is that setting state is _not_ synchronous. For all
 intents and purposes, it might seem that way, since our components update right
-away. State updates, however, are _batched_ internally and then executed
-simultaneously whenever React feels it's appropriate. This might result in some
-unexpected behavior. Going back to our `ClickityClick` component above, let's
-log the state after we've set it using `this.setState()`:
+away. State updates, however, are _batched_ internallearne()`:
 
 ```js
 // src/components/ClickityClick.js
